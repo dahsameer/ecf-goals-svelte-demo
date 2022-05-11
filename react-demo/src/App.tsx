@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import './App.css';
-import { Post } from './Post';
+import { useState, useEffect } from 'react'
+import { Post } from './Post'
+import './App.css'
 
 function App() {
   const [post, setPost] = useState<Array<Post>>([]);
@@ -29,7 +29,7 @@ function App() {
         </ul>
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
